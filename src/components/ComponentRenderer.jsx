@@ -24,6 +24,9 @@ import {ControlledFlow} from "./ControlledFlow";
 import {logProps} from "./logProps";
 import {includeUser} from "./include-user";
 import {UserInfoForm} from "./user-form";
+import {useCurrentUser} from "./current-user.hook";
+import {useResource} from "./resource.hook";
+import {useDataSource} from "./data-source.hook";
 
 // LAYOUT COMPONENT PATTERNS
 const LeftSideComp = ({ title }) => {
@@ -191,6 +194,25 @@ function HigherOrderComponentPattern() {
     );
 }
 
+function CustomHookPattern() {
+    const currentUser = useCurrentUser();
+    const user = useCurrentUser("3");
+    const resource = useResource("/users/2");
+    const userData = useDataSource(async () => {
+        const response = await axios.get('/users/1');
+        return response;
+    })
+    console.log(resource)
+    return (
+        <>
+            <UserInfo user={currentUser}/>
+            <UserInfo user={user}/>
+            <UserInfo user={resource}/>
+            <UserInfo user={userData}/>
+        </>
+    );
+}
+
 export function ComponentRenderer() {
     return (
         <>
@@ -208,7 +230,10 @@ export function ComponentRenderer() {
             {/*<ControlledFlowPattern/>*/}
 
             {/*  HIGHER ORDER COMPONENT PATTERN  */}
-            <HigherOrderComponentPattern/>
+            {/*<HigherOrderComponentPattern/>*/}
+
+            {/*  CUSTOM HOOK PATTERN  */}
+            <CustomHookPattern/>
         </>
     );
 }

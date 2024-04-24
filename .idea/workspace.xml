@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1084cbb-bd2d-45b5-83b6-ba19953f7d71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/include-updatable-resource.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/include-updatable-user.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/include-user.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/logProps.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/user-form.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/current-user.hook.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/data-source.hook.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/resource.hook.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user-hook.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ComponentRenderer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComponentRenderer.jsx" afterDir="false" />
     </list>
@@ -55,7 +54,8 @@
       <updated>1713487477631</updated>
       <workItem from="1713487478953" duration="15930000" />
       <workItem from="1713925707685" duration="104000" />
-      <workItem from="1713936511476" duration="5265000" />
+      <workItem from="1713936511476" duration="5376000" />
+      <workItem from="1713983862590" duration="3429000" />
     </task>
     <servers />
   </component>
