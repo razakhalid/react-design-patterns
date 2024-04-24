@@ -21,6 +21,9 @@ import {useState} from "react";
 import {ControlledModal} from "./ControlledModal";
 import {UncontrolledFlow} from "./UncontrolledFlow";
 import {ControlledFlow} from "./ControlledFlow";
+import {logProps} from "./logProps";
+import {includeUser} from "./include-user";
+import {UserInfoForm} from "./user-form";
 
 // LAYOUT COMPONENT PATTERNS
 const LeftSideComp = ({ title }) => {
@@ -177,6 +180,17 @@ function ControlledFlowPattern() {
         </>
     )
 }
+
+function HigherOrderComponentPattern() {
+    const UserInfoWithData = includeUser(UserInfo, "3");
+    return (
+        <>
+            <UserInfoWithData/>
+            <UserInfoForm/>
+        </>
+    );
+}
+
 export function ComponentRenderer() {
     return (
         <>
@@ -191,7 +205,10 @@ export function ComponentRenderer() {
             {/*<ControlledComponentPattern/>*/}
 
             {/*  CONTROLLED FLOW  */}
-            <ControlledFlowPattern/>
+            {/*<ControlledFlowPattern/>*/}
+
+            {/*  HIGHER ORDER COMPONENT PATTERN  */}
+            <HigherOrderComponentPattern/>
         </>
     );
 }
