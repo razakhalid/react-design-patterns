@@ -27,6 +27,9 @@ import {UserInfoForm} from "./user-form";
 import {useCurrentUser} from "./current-user.hook";
 import {useResource} from "./resource.hook";
 import {useDataSource} from "./data-source.hook";
+import {RecursiveComponent} from "./RecursiveComponent";
+import {GreenSmallButton, RedButton} from "./composition";
+import {PartialSmallRedButton, PartialRedButton } from "./partial";
 
 // LAYOUT COMPONENT PATTERNS
 const LeftSideComp = ({ title }) => {
@@ -213,6 +216,37 @@ function CustomHookPattern() {
     );
 }
 
+function RecursiveComponentPattern() {
+    const data = {
+        key1: "value1",
+        key2: {
+            innerKey1: "innerValue1",
+            innerKey2: {
+                innerInnerKey1: "innerInnerValue1",
+                innerInnerKey2: "innerInnerValue2"
+            }
+        },
+        key3: "value3"
+    }
+
+    return (
+      <>
+          <RecursiveComponent data={data}/>
+      </>
+    );
+}
+
+function ComponentCompositionPattern() {
+    return (
+        <>
+            <RedButton text={"I am red"}></RedButton>
+            <GreenSmallButton text={"I am small and green"}/>
+            <PartialRedButton text={"I am partial and red"}/>
+            <PartialSmallRedButton text={"I am partial, small and red"}/>
+        </>
+    )
+}
+
 export function ComponentRenderer() {
     return (
         <>
@@ -233,7 +267,13 @@ export function ComponentRenderer() {
             {/*<HigherOrderComponentPattern/>*/}
 
             {/*  CUSTOM HOOK PATTERN  */}
-            <CustomHookPattern/>
+            {/*<CustomHookPattern/>*/}
+
+            {/*  RECURSIVE COMPONENT PATTERN  */}
+            <RecursiveComponentPattern/>
+
+            {/*  COMPONENT COMPOSITION PATTERN  */}
+            <ComponentCompositionPattern/>
         </>
     );
 }
