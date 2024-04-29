@@ -37,6 +37,7 @@ import SubscribeForm from "./layers-pattern/start";
 import InfoForm from "./split-pattern/start";
 import {InfoFormWithColumns} from "./columns-pattern/start";
 import {Cards} from "./grid-pattern/start";
+import BundledMenu from "./inline-bundle-pattern/start";
 
 // LAYOUT COMPONENT PATTERNS
 const LeftSideComp = ({ title }) => {
@@ -318,7 +319,8 @@ export function ComponentRenderer() {
 
             {/*<PatternComponents/>*/}
             {/*<InfoFormWithColumns/>*/}
-            <Cards></Cards>
+            {/*<Cards></Cards>*/}
+            <BundledMenu></BundledMenu>
         </>
     );
 }
