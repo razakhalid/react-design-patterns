@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1084cbb-bd2d-45b5-83b6-ba19953f7d71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/DSModal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/register.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/colors.util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/global.style.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/typescales.util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/spaces.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ComponentRenderer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComponentRenderer.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +59,7 @@
       <workItem from="1713936511476" duration="5376000" />
       <workItem from="1713983862590" duration="5396000" />
       <workItem from="1714000538561" duration="194000" />
-      <workItem from="1714362445856" duration="4003000" />
+      <workItem from="1714362445856" duration="6795000" />
     </task>
     <servers />
   </component>

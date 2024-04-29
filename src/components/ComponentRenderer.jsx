@@ -33,6 +33,7 @@ import {PartialSmallRedButton, PartialRedButton } from "./partial";
 import {GlobalStyles} from "../utils/index";
 import {Button, PrimaryButton} from './button';
 import DSModal from './DSModal';
+import SubscribeForm from "./layers/start";
 
 // LAYOUT COMPONENT PATTERNS
 const LeftSideComp = ({ title }) => {
@@ -271,6 +272,12 @@ function DesignSystemModal() {
     )
 }
 
+function PatternComponents() {
+    return (
+        <SubscribeForm/>
+    )
+}
+
 export function ComponentRenderer() {
     return (
         <>
@@ -299,8 +306,10 @@ export function ComponentRenderer() {
             {/*  COMPONENT COMPOSITION PATTERN  */}
             {/*<ComponentCompositionPattern/>*/}
 
-            <DesignSystemButtons/>
-            <DesignSystemModal/>
+            {/*<DesignSystemButtons/>*/}
+            {/*<DesignSystemModal/>*/}
+
+            <PatternComponents/>
         </>
     );
 }
