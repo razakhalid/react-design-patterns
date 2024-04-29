@@ -35,6 +35,7 @@ import {Button, PrimaryButton} from './button';
 import DSModal from './DSModal';
 import SubscribeForm from "./layers-pattern/start";
 import InfoForm from "./split-pattern/start";
+import {InfoFormWithColumns} from "./columns-pattern/start";
 
 // LAYOUT COMPONENT PATTERNS
 const LeftSideComp = ({ title }) => {
@@ -282,6 +283,7 @@ function PatternComponents() {
     )
 }
 
+
 export function ComponentRenderer() {
     return (
         <>
@@ -313,7 +315,8 @@ export function ComponentRenderer() {
             {/*<DesignSystemButtons/>*/}
             {/*<DesignSystemModal/>*/}
 
-            <PatternComponents/>
+            {/*<PatternComponents/>*/}
+            <InfoFormWithColumns/>
         </>
     );
 }

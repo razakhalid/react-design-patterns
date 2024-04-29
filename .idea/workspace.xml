@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1084cbb-bd2d-45b5-83b6-ba19953f7d71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/split-pattern/start.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/columns-pattern/start.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ComponentRenderer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComponentRenderer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layers/start.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layers-pattern/start.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
       <workItem from="1713936511476" duration="5376000" />
       <workItem from="1713983862590" duration="5396000" />
       <workItem from="1714000538561" duration="194000" />
-      <workItem from="1714362445856" duration="8245000" />
+      <workItem from="1714362445856" duration="10228000" />
     </task>
     <servers />
   </component>
