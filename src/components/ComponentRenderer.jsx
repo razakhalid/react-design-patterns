@@ -30,6 +30,9 @@ import {useDataSource} from "./data-source.hook";
 import {RecursiveComponent} from "./RecursiveComponent";
 import {GreenSmallButton, RedButton} from "./composition";
 import {PartialSmallRedButton, PartialRedButton } from "./partial";
+import {GlobalStyles} from "../utils/index";
+import {Button, PrimaryButton} from './button';
+import DSModal from './DSModal';
 
 // LAYOUT COMPONENT PATTERNS
 const LeftSideComp = ({ title }) => {
@@ -247,6 +250,27 @@ function ComponentCompositionPattern() {
     )
 }
 
+function DesignSystemButtons() {
+    return (
+        <>
+            <Button>Click Me</Button>
+            <Button disabled>Click Me</Button>
+            <PrimaryButton>Click Me</PrimaryButton>
+            <PrimaryButton disabled>Click Me</PrimaryButton>
+            <PrimaryButton className="large">Click Me</PrimaryButton>
+            <PrimaryButton className="small">Click Me</PrimaryButton>
+            <PrimaryButton className="warning">Click Me</PrimaryButton>
+            <GlobalStyles/>
+        </>
+    )
+}
+
+function DesignSystemModal() {
+    return (
+        <DSModal></DSModal>
+    )
+}
+
 export function ComponentRenderer() {
     return (
         <>
@@ -270,10 +294,13 @@ export function ComponentRenderer() {
             {/*<CustomHookPattern/>*/}
 
             {/*  RECURSIVE COMPONENT PATTERN  */}
-            <RecursiveComponentPattern/>
+            {/*<RecursiveComponentPattern/>*/}
 
             {/*  COMPONENT COMPOSITION PATTERN  */}
-            <ComponentCompositionPattern/>
+            {/*<ComponentCompositionPattern/>*/}
+
+            <DesignSystemButtons/>
+            <DesignSystemModal/>
         </>
     );
 }
