@@ -38,6 +38,9 @@ import InfoForm from "./split-pattern/start";
 import {InfoFormWithColumns} from "./columns-pattern/start";
 import {Cards} from "./grid-pattern/start";
 import BundledMenu from "./inline-bundle-pattern/start";
+import Menu from "./inline-pattern/start";
+import {GiftCardList} from "./pad-pattern/start";
+import {Profile} from "./center-pattern/start";
 
 // LAYOUT COMPONENT PATTERNS
 const LeftSideComp = ({ title }) => {
@@ -320,7 +323,14 @@ export function ComponentRenderer() {
             {/*<PatternComponents/>*/}
             {/*<InfoFormWithColumns/>*/}
             {/*<Cards></Cards>*/}
-            <BundledMenu></BundledMenu>
+            {/*<BundledMenu></BundledMenu>*/}
+            {/*<Menu></Menu>*/}
+
+            {/* Pad Pattern */}
+            {/*<GiftCardList></GiftCardList>*/}
+
+            {/*  Center Pattern  */}
+            <Profile></Profile>
         </>
     );
 }

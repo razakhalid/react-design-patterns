@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1084cbb-bd2d-45b5-83b6-ba19953f7d71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/inline-bundle-pattern/menu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/inline-bundle-pattern/start.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/center-pattern/start.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pad-pattern/start.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ComponentRenderer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComponentRenderer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inline-bundle-pattern/menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inline-bundle-pattern/menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inline-pattern/start.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inline-pattern/start.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,31 +23,43 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="2fITE5MEmqNlNX5eywzhjoKPwpo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/razakhalid/Downloads/dev-practice/react-design-patterns&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/razakhalid/Downloads/dev-practice/react-design-patterns",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.language",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,7 +75,9 @@
       <workItem from="1713983862590" duration="5396000" />
       <workItem from="1714000538561" duration="194000" />
       <workItem from="1714362445856" duration="12462000" />
-      <workItem from="1714409878633" duration="2055000" />
+      <workItem from="1714409878633" duration="5941000" />
+      <workItem from="1714593301374" duration="57000" />
+      <workItem from="1717646846228" duration="3532000" />
     </task>
     <servers />
   </component>

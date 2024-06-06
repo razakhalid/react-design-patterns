@@ -12,12 +12,12 @@ const Pad = styled.div`
   }};
 `;
 
-const Logo = styled.div`
+export const Logo = styled.div`
   border-radius: 50%;
   background: linear-gradient(135deg, #ff2828, #d043ff);
 `;
 
-const MenuWrapper = styled(Pad)`
+export const MenuWrapper = styled(Pad)`
   border: 2px solid #f06292;
   border-radius: 0.5rem;
 `;
