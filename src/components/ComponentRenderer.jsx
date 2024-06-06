@@ -41,6 +41,8 @@ import BundledMenu from "./inline-bundle-pattern/start";
 import Menu from "./inline-pattern/start";
 import {GiftCardList} from "./pad-pattern/start";
 import {Profile} from "./center-pattern/start";
+import {NewProductsList} from "./media-wrapper-pattern/start";
+import {HeroPage} from "./cover-pattern/start";
 
 // LAYOUT COMPONENT PATTERNS
 const LeftSideComp = ({ title }) => {
@@ -330,7 +332,12 @@ export function ComponentRenderer() {
             {/*<GiftCardList></GiftCardList>*/}
 
             {/*  Center Pattern  */}
-            <Profile></Profile>
+            {/*<Profile></Profile>*/}
+
+            {/*  Media Wrapper Pattern  */}
+            {/*<NewProductsList></NewProductsList>*/}
+
+            <HeroPage></HeroPage>
         </>
     );
 }
