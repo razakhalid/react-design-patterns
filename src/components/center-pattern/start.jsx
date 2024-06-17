@@ -1,7 +1,7 @@
 import { styled } from 'styled-components';
 import {Layers} from "../layers-pattern/start";
 
-const Center = styled.div`
+export const Center = styled.div`
     box-sizing: content-box;
     margin-inline-start: auto;
     margin-inline-end: auto;

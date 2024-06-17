@@ -43,6 +43,7 @@ import {GiftCardList} from "./pad-pattern/start";
 import {Profile} from "./center-pattern/start";
 import {NewProductsList} from "./media-wrapper-pattern/start";
 import {HeroPage} from "./cover-pattern/start";
+import {Modal21} from "./modal/modal";
 
 // LAYOUT COMPONENT PATTERNS
 const LeftSideComp = ({ title }) => {
@@ -337,7 +338,10 @@ export function ComponentRenderer() {
             {/*  Media Wrapper Pattern  */}
             {/*<NewProductsList></NewProductsList>*/}
 
-            <HeroPage></HeroPage>
+            {/*<HeroPage></HeroPage>*/}
+
+            {/*  Modal  */}
+            <Modal21></Modal21>
         </>
     );
 }

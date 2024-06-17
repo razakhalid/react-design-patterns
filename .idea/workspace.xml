@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1084cbb-bd2d-45b5-83b6-ba19953f7d71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/cover-pattern/start.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/media-wrapper-pattern/start.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modal/modal.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ComponentRenderer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComponentRenderer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/center-pattern/start.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/center-pattern/start.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cover-pattern/start.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cover-pattern/start.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +22,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2fITE5MEmqNlNX5eywzhjoKPwpo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Node.js.modal.jsx.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -75,7 +77,9 @@
       <workItem from="1714362445856" duration="12462000" />
       <workItem from="1714409878633" duration="5941000" />
       <workItem from="1714593301374" duration="57000" />
-      <workItem from="1717646846228" duration="7037000" />
+      <workItem from="1717646846228" duration="7086000" />
+      <workItem from="1717701464790" duration="414000" />
+      <workItem from="1718657128739" duration="2676000" />
     </task>
     <servers />
   </component>

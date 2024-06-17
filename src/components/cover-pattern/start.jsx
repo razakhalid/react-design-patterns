@@ -5,7 +5,7 @@ import {styled} from "styled-components";
 import {spaceSchema} from "../common/spaces";
 import { Pad } from "../pad-pattern/start";
 
-const Cover = styled.div.attrs(({ children, top, bottom }) => {
+export const Cover = styled.div.attrs(({ children, top, bottom }) => {
     return {
         children: (
             <>
