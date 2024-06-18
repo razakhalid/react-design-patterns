@@ -45,6 +45,8 @@ import {NewProductsList} from "./media-wrapper-pattern/start";
 import {HeroPage} from "./cover-pattern/start";
 import {Modal21} from "./modal/modal";
 import {MainPage} from "./project/main";
+import {Card} from "./compound-component-pattern/start";
+import {Subscriber} from "./subscriber-pattern/parent";
 
 // LAYOUT COMPONENT PATTERNS
 const LeftSideComp = ({ title }) => {
@@ -292,6 +294,20 @@ function PatternComponents() {
     )
 }
 
+function CompoundCard() {
+    return (
+        <Card>
+            <Card.Header>
+                <h1 style={{margin: "0"}}>Header</h1>
+            </Card.Header>
+            <Card.Body>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate earum eos explicabo, inventore maxime modi natus obcaecati quam repellat saepe similique temporibus vero! Accusamus accusantium asperiores at beatae cum debitis dolor eaque enim eos impedit itaque labore laborum nemo nisi odio odit officiis quae quas quasi quia, quibusdam repellat saepe sed sint tenetur voluptate voluptatem voluptatibus. A alias illo mollitia. Distinctio dolorem est laudantium magni modi molestiae officiis quae quidem rerum veniam. Alias aliquid, architecto consequatur dolor, eligendi illo odit, pariatur placeat sequi sunt voluptates voluptatum. Dolor ex excepturi facilis pariatur provident repellat repudiandae suscipit tempora unde? Inventore maxime, molestiae.</Card.Body>
+            <Card.Footer>
+                <button>Ok</button>
+                <button>Cancel</button>
+            </Card.Footer>
+        </Card>
+    )
+}
 
 export function ComponentRenderer() {
     return (
@@ -339,13 +355,19 @@ export function ComponentRenderer() {
             {/*  Media Wrapper Pattern  */}
             {/*<NewProductsList></NewProductsList>*/}
 
+            {/* Compound Component Pattern */}
+            {/*<CompoundCard></CompoundCard>*/}
+
+            {/* Subscriber Pattern */}
+            <Subscriber></Subscriber>
+
             {/*<HeroPage></HeroPage>*/}
 
             {/*  Modal  */}
             {/*<Modal21></Modal21>*/}
 
             {/*  Project  */}
-            <MainPage></MainPage>
+            {/*<MainPage></MainPage>*/}
         </>
     );
 }
