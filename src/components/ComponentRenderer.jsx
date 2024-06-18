@@ -44,6 +44,7 @@ import {Profile} from "./center-pattern/start";
 import {NewProductsList} from "./media-wrapper-pattern/start";
 import {HeroPage} from "./cover-pattern/start";
 import {Modal21} from "./modal/modal";
+import {MainPage} from "./project/main";
 
 // LAYOUT COMPONENT PATTERNS
 const LeftSideComp = ({ title }) => {
@@ -341,7 +342,10 @@ export function ComponentRenderer() {
             {/*<HeroPage></HeroPage>*/}
 
             {/*  Modal  */}
-            <Modal21></Modal21>
+            {/*<Modal21></Modal21>*/}
+
+            {/*  Project  */}
+            <MainPage></MainPage>
         </>
     );
 }

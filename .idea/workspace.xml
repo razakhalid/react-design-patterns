@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1084cbb-bd2d-45b5-83b6-ba19953f7d71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/modal/modal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/project/buttons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/project/content.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/project/logo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/project/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/project/menu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/project/right-side.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/project/sidebar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ComponentRenderer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComponentRenderer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/center-pattern/start.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/center-pattern/start.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cover-pattern/start.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cover-pattern/start.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/columns-pattern/start.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/columns-pattern/start.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inline-pattern/start.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inline-pattern/start.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +86,7 @@
       <workItem from="1714593301374" duration="57000" />
       <workItem from="1717646846228" duration="7086000" />
       <workItem from="1717701464790" duration="414000" />
-      <workItem from="1718657128739" duration="2676000" />
+      <workItem from="1718657128739" duration="11351000" />
     </task>
     <servers />
   </component>

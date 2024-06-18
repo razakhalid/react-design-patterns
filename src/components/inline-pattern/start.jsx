@@ -32,7 +32,6 @@ export const Inline = styled(InlineBundle)`
   
   > * {
     min-width: fit-content;
-    flex-basis: calc((40rem - (100% - var(--gutter)))  * 999);
   }
   
   ${({switchAt}) => switchAt && responsive}

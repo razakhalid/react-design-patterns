@@ -4,7 +4,7 @@ import {spaceSchema} from "../common/spaces";
 import {Layers} from "../layers-pattern/start";
 
 export const Columns = styled.div`
-  --columns: ${ ({ columns = 1 }) => columns }
+  --columns: ${ ({ columns = 1 }) => columns };
   display: grid;
   gap: ${(props) => spaceSchema[props.gutter] || spaceSchema.l};
   grid-template-columns: repeat(var(--columns), 1fr);
